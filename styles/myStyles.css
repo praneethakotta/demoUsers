@@ -1,0 +1,343 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #efecec;
+    overflow-x:hidden;
+}
+
+@font-face {
+   font-family: clanProBook;
+   src: url(../fonts/ufonts.com_clanpro-book.woff);
+}
+
+@font-face {
+   font-family: clanProNews;
+   src: url(../fonts/ufonts.com_clanpro-news.woff);
+}
+@font-face {
+   font-family: HelveticaNeueLt;
+   src: url(../fonts/HelveticaFonts_ttf/HelveticaNeueLTStd-Lt.ttf);
+}
+@font-face {
+   font-family: HelveticaNeueMed;
+   src: url(../fonts/helveticaneue/HelveticaNeueMed.ttf);
+}
+.header{
+    background-color: #505050;
+    position:fixed;
+    z-index: 3;
+    top:0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    margin-left: 2%;
+    
+}
+.vLine{
+    position: relative;
+    display: block;
+/*    margin-left: 6%;*/
+    border: none;
+    border-right: 1.5px solid rgba(151,151,151,0.2);
+    height: 340px;
+    width: 10px;
+    margin-top:3%;
+}
+.techImg{
+    width: 100%;
+    height: 294px;
+    position: absolute;
+    top:50px;
+    background:url(../images/headerImg.png) no-repeat;
+    background-size: cover;
+}
+.dropdown{
+    font-family: clanProBook;
+    outline: none;
+    border: none;
+    bottom: -5px;
+    font-size: 13px;
+    font-weight: 100;
+    position: relative;
+}
+
+option{
+    width: 100%;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: clanProBook;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    
+}
+select{
+    background-color: transparent;
+}
+select option:focus{
+    background-color: #efecec;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.downArr{
+    float: right;
+    position: relative;
+    bottom: -5px;
+    width: 16px;
+    height: 9px;
+}
+.bottom{
+    position: relative;
+    margin-top:360px;
+    width: 100%;
+}
+
+.FSSlogan{
+    position: relative;
+    left: 10px;
+    font-size: 18px;
+    margin-right: 20px;
+    font-family: HelveticaNeueMed;
+    color: #484747;
+}
+.download{
+    width: 212px;
+    height: 35px; 
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid #00a2de;
+    color: #00a2de;
+    background: transparent;
+    outline: none;
+    font-family: clanProNews;
+}
+.desc{
+    margin-left: 30px;
+    font-size: 12px;
+    color: #484747;
+    font-family: HelveticaNeueLt;
+    letter-spacing: 4;
+    word-spacing: 5;
+    
+}
+.getStarted{
+    margin-top: -5%;
+    font-size: 23px;
+    font-family: HelveticaNeueLt;
+    margin-bottom: 25px;
+}
+.imgSupport{
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    
+}
+
+.downloadCol{
+    position: relative;
+    padding-top: 10px;
+    left: 60px;
+}
+select{
+    width:100%;
+}
+
+
+hr{
+    border-color: rgba(151,151,151,0.2);
+    position: relative;
+    margin-top:-20px;
+}
+
+.col-lg-4,.col-lg-1{
+    position: relative;
+    margin-bottom: 10%;
+    padding-top: 3%;
+}
+form{
+    padding-top: 18px;
+    padding-left: 25px;
+    padding-right: 18px;
+}
+.toggleDiv{
+    background-color: #f7f5f5;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.2);    
+    height: 292px;
+    width: 400px;
+}
+
+.success{
+    display: block;
+    text-align: center;
+    padding-top: 27px;
+}
+.emailID{
+    font-size: 13px;
+    color: #484747;
+    font-family: HelveticaNeueMed;
+}
+.setUp{
+    margin-top: 7px;
+    font-size: 18px;
+    color: #484747;
+    font-weight: 300;
+    font-family: HelveticaNeueLt;
+}
+.completed{
+    position: relative;
+    font-family: HelveticaNeueLt;
+    font-size: 12px;
+    color: #484747;
+    top: 7px;
+}
+.viewTerms{
+     width: 120px;
+    height: 35px;  
+    position: relative;
+    top:5px;
+    border: 1px solid #00a2de;
+    color: #00a2de;
+    background: transparent;
+    outline: none;
+    overflow: hidden;
+    font-family: clanProNews;
+}
+
+.techComments{
+    font-size: 23px;
+    color: #272727 ;
+    opacity: 0.5;
+    font-weight: 100;
+}
+.signUpDiv{
+    display: flex;
+    justify-content: center;
+}
+.signUp{
+    position: relative;
+    top:5px;
+     background-color: #7cbd2b;
+    border:1px solid #7cbd2b;
+    color: white;
+    width: 60%;
+    height: 35px;
+    outline: none;
+    font-family: clanProNews;
+    text-align: center;
+    
+}
+.techCol{
+    display: block;
+    align-content: center;
+    margin-top: 70px;
+    
+}
+.technicianImg{
+    position: relative;
+    margin-left: 20%;
+    margin-top: 8px;
+    float: left;
+}
+.details{
+    position: relative;
+    left: 10px;
+    top:10px;
+}
+.profession{
+    font-size: 12px;
+    margin-top: -6px;
+}
+.techName{
+    font-size: 16px; 
+    font-family: HNLight;
+}
+
+.group { 
+	position: relative; 
+	margin-bottom: 6px; 
+}
+
+input {
+	font-size: 12px;
+	padding: 10px 10px 3px 5px;
+	-webkit-appearance: none;
+	display: block;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+    background-color: transparent;
+	border-bottom: 1px solid rgba(151,151,151,0.2);
+}
+
+input:focus { outline: none; }
+
+label {
+	font-size: 13px;
+    font-family: clanProBook;
+	font-weight: normal;
+	position: absolute;
+	top: 10px;
+	-webkit-transition:all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+input:focus ~ label, input.used ~ label {
+	top: -4px;
+  -webkit-transform: scale(.85);
+          transform: scale(.85);
+	color: #00a2de;
+}
+
+.bar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+
+.bar:before, .bar:after {
+	content: '';
+	height: 1px; 
+	width: 0;
+	bottom: 1px; 
+	position: absolute;
+	background: #00a2de; 
+	-webkit-transition:all 0.2s ease; 
+	transition: all 0.2s ease;
+}
+
+.bar:before { left: 50%; }
+
+.bar:after { right: 50%; }
+
+input:focus ~ .bar:before, input:focus ~ .bar:after { width: 50%; }
+
+.highlight {
+	position: absolute;
+	width: 100px; 
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+
+input:focus ~ .highlight {
+	-webkit-animation: inputHighlighter 0.3s ease;
+	        animation: inputHighlighter 0.3s ease;
+}
+
+@-webkit-keyframes inputHighlighter {
+	from { background: #00a2de; }
+	to 	{ width: 0; background: transparent; }
+}
+
+@keyframes inputHighlighter {
+	from { background: #00a2de; }
+	to 	{ width: 0; background: transparent; }
+}
